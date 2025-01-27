@@ -27,10 +27,10 @@ option(RYML_INSTALL "Enable install target" ON)
 
 #-------------------------------------------------------
 
-c4_require_subproject(c4core INCORPORATE
-    SUBDIRECTORY ${RYML_EXT_DIR}/c4core
-    OVERRIDE C4CORE_INSTALL ${RYML_INSTALL}
-)
+#c4_require_subproject(c4core INCORPORATE
+#    SUBDIRECTORY ${RYML_EXT_DIR}/c4core
+#    OVERRIDE C4CORE_INSTALL ${RYML_INSTALL}
+#)
 
 c4_add_library(ryml
     SOURCES
