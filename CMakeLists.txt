@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-include(./ext/c4core/cmake/c4Project.cmake)
+include(/usr/lib/cmake/c4Project.cmake)
 project(ryml
     DESCRIPTION "Rapid YAML parsing and emitting"
     HOMEPAGE_URL "https://github.com/biojppm/rapidyaml"
